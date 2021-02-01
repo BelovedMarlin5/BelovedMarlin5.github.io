@@ -1,0 +1,192 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #ececec;
+}
+
+.clearfix{
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+header{
+	background-color: #ffffff;
+}
+
+#p1{
+	font-size: 36px;
+	color: #3DB42B;
+}
+
+#p2{
+	font-size: 30px;
+	margin-top: 5px;
+	color: #8d8d8d;
+}
+
+.menu{
+	padding-top: 10px;
+	width: 975px;
+	margin: 0 auto;
+	margin-bottom: -20px;
+}
+
+.menu p{
+	float: left;
+	margin-top: 0;
+}
+
+nav{
+	float: right;
+}
+
+li{
+	display: block;
+	float: left;
+	margin-left: 31px;
+}
+
+li a{
+	color: #676767;
+	text-decoration: none;
+}
+
+.cu{
+	background: #3DB42B;
+	padding: 8px 12px;
+	text-align: center;
+	color: white;
+	border-radius: 5px;
+
+}
+
+.first{
+	height: 530px;
+	background-image: url(img/bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+    margin-bottom: -70px;
+}
+
+h1{
+	font-size: 52px;
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	padding-top: 170px;
+	margin: 0;
+}
+
+#p3{
+	font-size: 48px;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+}
+
+.button{
+	background: #3db42b;
+	color: white;
+	border-radius: 5px;
+	display: block;
+	width: 271px;
+	padding: 15px 0;
+	margin: 0 auto;
+	text-decoration: none;
+	text-align: center;
+	margin-top: 45px;
+	font-size: 35px;
+	font-weight: bold;
+	box-shadow: 0 0 20px 5px #2F4831;
+	margin-bottom: 68px;
+}
+
+.places{
+	background-color: white;
+	width: 480px;
+	text-align: center;
+	margin: 0 auto;
+	border-radius: 5px;
+	height: 245px;
+	box-shadow: 0 6px 0 0 #51c03d;
+    margin-bottom: 30px;
+}
+
+.places p{
+	font-size: 22px;
+	color: #868686; 
+	padding-top: 25px;
+}
+
+.photo{
+	width: 442px;
+	margin: 0 auto;
+}
+
+.top{
+	float: left;
+}
+
+.photo_top{
+	float: left;
+	margin-right: 7px;
+	text-align: center;
+	font-size: 10px;
+	color: #929292;
+}
+
+.bottom{
+	float: left;
+}
+
+.photo_bottom{
+	float: left;
+	margin-right: 7px;
+	text-align: center;
+	color: #929292
+}
+
+.photo img{
+	margin-bottom: 0;
+	padding-top: 0;
+}
+
+.photo p{
+	margin: 0;
+	margin-bottom: 5px;
+	padding: 0;
+    font-size: 17px;
+}
+
+.info{
+	font-size: 26px;
+	width: 676px;
+	margin: auto;
+	text-align: center;
+	color: #7e7c7c;
+    margin-bottom: 45px;
+}
+
+.education{
+    width: 975px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.education p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.finish{
+    text-align: center;
+    background-color: gray;
+    margin: 0;
+    font-size: 16px;
+    padding: 5px;
+    font-weight: 500;
+}
